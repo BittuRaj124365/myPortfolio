@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: #4c9daf;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #0c575f;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #48b0ec;
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+    border-radius: 50%;    
+    transition-duration:0.3s;
+}
+
+/* Section */
+.section {
+    padding: 30px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 80px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    color: #bf6012;
+    margin-right:10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Links */
+a {
+    color: #0a0400;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline solid;
+    transition-duration:0.3s;
+    transition-delay:2s;
+}
